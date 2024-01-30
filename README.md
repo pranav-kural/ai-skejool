@@ -44,9 +44,9 @@ NOTE: If you name your Google Cloud project something other than `ai-skejool`, y
 ### Using `genschedule` command
 
 ```bash
-python skejool.py genschedule "Wake up around 7, be done with breakfast by 9. Start the day by studying AI for 2 hours, then 1 hour on leetcode. Have a rice bowl in lunch, maximum 60 minutes, and then be ready for a zoom meeting at 4pm. Work on assignment for a few hours and after hitting the gym have dinner by 8pm. Read book before bed for 30 mins. Remember to take small breaks"
+> python skejool.py genschedule "Wake up around 7, be done with breakfast by 9. Start the day by studying AI for 2 hours, then 1 hour on leetcode. Have a rice bowl in lunch, maximum 60 minutes, and then be ready for a zoom meeting at 4pm. Work on assignment for a few hours and after hitting the gym have dinner by 8pm. Read book before bed for 30 mins. Remember to take small breaks"
 
->>> Hello from the AI Skejool Bot! Here's a productive schedule plan to manage your priorities for today:
+>>> "Hello from the AI Skejool Bot! Here's a productive schedule plan to manage your priorities for today:
 
     **7:00 AM** - Wake up and get ready for the day.
 
@@ -77,8 +77,8 @@ python skejool.py genschedule "Wake up around 7, be done with breakfast by 9. St
 
 ### Using `getschedule` command
 
-```bash
-python skejool.py getschedule
+```
+> python skejool.py getschedule
 
 >>> Whats your agenda for today?: Wake up around 7, be done with breakfast by 9. Start the day by studying AI for 2 hours, then 1 hour on leetcode. Have a rice bowl in lunch, maximum 60 minutes, and then be ready for a zoom meeting at 4pm. Work on assignment for a few hours and after hitting the gym have dinner by 8pm. Read book before bed for 30 mins. Remember to take small breaks
 
@@ -110,3 +110,7 @@ python skejool.py getschedule
 
     Remember to take breaks in between activities and to listen to your body. If you start to feel tired, take a break and do something else for a while. You can also use the Pomodoro Technique to help you stay focused and avoid burnout.
 ```
+
+## Contributing
+
+Feel free to create a fork or use the code.
